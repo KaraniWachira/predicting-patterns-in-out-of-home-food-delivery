@@ -1,0 +1,48 @@
+---
+title: "Emerging Patterns in our-of-home food delivery"
+author: "Karani Keith Wachira"
+date: "2023-09-13"
+output: html_document
+---
+
+```{r}
+#add libraries
+library(dplyr)
+library(ggplot2)
+library(readr)
+
+```
+
+```{r}
+#install packages to use
+install.packages("tidyverse")
+install.packages("dplyr")
+```
+
+
+```{r}
+onlinedeliverydata <- read_csv("Desktop/Final Year Project/dataset -india/archive(1)/onlinedeliverydata.csv")
+
+View(onlinedeliverydata)
+
+dim(onlinedeliverydata)
+
+glimpse(onlinedeliverydata)
+
+```
+
+```{r}
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
